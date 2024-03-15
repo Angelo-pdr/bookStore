@@ -56,6 +56,7 @@ RUN poetry install --no-dev
 
 # quicker install as runtime deps are already installed
 RUN poetry install
+RUN poetry lock
 
 RUN pip install psycopg2
 
