@@ -152,6 +152,6 @@ INTERNAL_IPS = [
 
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS =  ["*", "ebac-bookstore-ab40a816177e.herokuapp.com"]
+ALLOWED_HOSTS =  ["*", "https://ebac-bookstore-ab40a816177e.herokuapp.com/"]
 
  
