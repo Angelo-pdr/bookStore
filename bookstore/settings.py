@@ -119,6 +119,8 @@ LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
 
+USE_L10N =True
+
 USE_I18N = True
 
 USE_TZ = True
@@ -152,6 +154,6 @@ INTERNAL_IPS = [
 
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS =  ["*", "https://ebac-bookstore-ab40a816177e.herokuapp.com/"]
+ALLOWED_HOSTS =  ["*","localhost", '127.0.0.1' "https://ebac-bookstore-ab40a816177e.herokuapp.com/", "/", "/favicon.ico" ]
 
  
