@@ -151,7 +151,7 @@ INTERNAL_IPS = [
 
 
 
-DEBUG = False
+DEBUG = int(os.environ.get("DEBUG", default=0))
 
 ALLOWED_HOSTS =  ["*","localhost", '127.0.0.1' "https://ebac-bookstore-ab40a816177e.herokuapp.com/", "/", "/favicon.ico" ]
 
